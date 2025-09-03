@@ -25,7 +25,7 @@ module "resource_group1" {
 
 # This RG aanada need to add for Project TodoApp in Canada Region
 
-module "resource_group1" {
+module "resource_group2" {
   source                  = "../modules/azurerm_resource_group"
   resource_group_name     = "rg-canada"
   resource_group_location = "canadacentral"
